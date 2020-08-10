@@ -8,7 +8,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #fc686d;
+    background: #F78764;
     font-family: 'Poppins', sans-serif;
     color: #1f1f1f;
 }
@@ -24,8 +24,8 @@ body {
   top: 0;
   left: 0;
   background: #FFFFFF;
-  width: 300px;
-  height: 300px;
+  width: 310px;
+  height: 310px;
   border-radius: 4px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   transform-origin: center;
@@ -40,7 +40,42 @@ body {
   overflow: hidden;
 }
 
-.card_image img{ 
+.card_image img{
   width: 100%;
   height: 100%;
+}
+
+.card_detail{
+  padding: 15px 20px;
+  position: relative;
+}
+
+.card_detail h3{
+margin: 10px 0;
+}
+
+.card_detail p{
+  font-size: 12px;
+  font-weight: 500;
+  color: #868686;
+  margin: 0;
+}
+
+.next {
+  position: absolute;
+  top: 53%;
+  right: 4%;
+  font-size: 20px;
+  cursor:pointer;
+}
+
+.next i {
+  background-color: #F78764;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 50%;
 }
