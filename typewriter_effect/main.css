@@ -1,5 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F78764;
+    font-family: 'Poppins', sans-serif;
+    color: #1f1f1f;
+}
+
 .change {
-  color: whitesmoke;
+  color: #1f1f1f;
   position: absolute;
   top: 50%;
   left: 50%;
