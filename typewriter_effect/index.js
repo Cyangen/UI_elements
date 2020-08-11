@@ -11,10 +11,12 @@ let interval_instance;
 let el = document.querySelector(".change");
 
 function write() {
+  //take one letter from array element and push it to 'el' every setInterval(write, 85) call
   let text = sentences[part].substring(0, part_index + 1);
   el.innerHTML = text;
   part_index++;
 
+  // if the sentence is all displayed, clear write interval and call erase interval after 1 second
   if(text === sentences[part]){
     clearInterval(interval_instance);
     setTimeout(function(){
