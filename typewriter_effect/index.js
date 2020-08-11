@@ -12,7 +12,6 @@ let el = document.querySelector(".change");
 
 function write() {
   let text = sentences[part].substring(0, part_index + 1);
-  console.log(text);
   el.innerHTML = text;
   part_index++;
 
