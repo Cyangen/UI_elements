@@ -10,3 +10,54 @@ body {
     font-family: 'Poppins', sans-serif;
     color: #1f1f1f;
 }
+
+.container{
+  width: 400px;
+  height: 250px;
+  background: #555B6E;
+  border-radius: 8px;
+  display: grid;
+}
+
+input{
+  display: block;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FAF9F9;
+  padding: 6px 4px;
+  margin: auto;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #89B0AE
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #FAF9F9;;
+  opacity: 1; /* Firefox */
+}
+
+.speak-button {
+  margin-top: 18px;
+  font-family: Roboto;
+  font-size: 16px;
+  color: #FAF9F9;
+  padding: 14px 24px;
+  margin: auto;
+  border-radius: 8px;
+  background: #89B0AE ;
+  border: none;
+  cursor: pointer;
+  transition: 250ms ease;
+
+}
+
+.speak-button:hover {
+  background: #BEE3DB;
+
+}
+
+.speak-button:active {
+  background: #89B0BE;
+  transform: scale(0.98);
+}

@@ -3,11 +3,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Speaker</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
   </head>
 
   <body>
-    <div class="card"></div>
+    <div class="container">
+      <input placeholder="Text to say..." class="input" type="text" name="" id="say-input">
+      <button onclick="speak('say-input')" class="speak-button">Speak!</button>
+    </div>
 
     <script type="text/javascript" src="index.js"></script>
   </body>
