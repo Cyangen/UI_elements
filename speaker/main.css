@@ -22,7 +22,7 @@ body {
 input{
   display: block;
   font-family: Roboto;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 20px;
   color: #FAF9F9;
   padding: 6px 4px;
@@ -32,15 +32,16 @@ input{
   border-bottom: 1px solid #89B0AE
 }
 
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #FAF9F9;;
-  opacity: 1; /* Firefox */
+::placeholder {
+  color: #FAF9F9;
+  text-align: center ;
+  opacity: 1; 
 }
 
 .speak-button {
-  margin-top: 18px;
+  width: 220px;
   font-family: Roboto;
-  font-size: 16px;
+  font-size: 18px;
   color: #FAF9F9;
   padding: 14px 24px;
   margin: auto;
@@ -49,15 +50,17 @@ input{
   border: none;
   cursor: pointer;
   transition: 250ms ease;
-
 }
 
 .speak-button:hover {
   background: #BEE3DB;
-
 }
 
 .speak-button:active {
   background: #89B0BE;
   transform: scale(0.98);
+}
+
+input:focus, .speak-button:focus {
+  outline: none;
 }
