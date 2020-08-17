@@ -11,12 +11,6 @@ function speak(id) {
   speech.rate = 1;
   speech.pitch = 1;
 
-  container.style.backgroundPosition = "left bottom";
-
-  setTimeout(() => {
-    container.style.backgroundPosition = "right bottom";
-  },2000)
-
   window.speechSynthesis.speak(speech);
 
 }
@@ -30,8 +24,10 @@ function speak(id) {
 
 /* 
 
+  container.style.backgroundPosition = "left bottom";
+
   setTimeout(() => {
     container.style.backgroundPosition = "right bottom";
-  },1)
+  },4000)
 
 */
