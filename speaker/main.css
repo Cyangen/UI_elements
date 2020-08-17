@@ -17,7 +17,13 @@ body {
   background: #555B6E;
   border-radius: 8px;
   display: grid;
+  position: relative;
+  background: linear-gradient(to right, #383b48 50%, #555B6E 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 1s linear;
 }
+
 
 input{
   display: block;
