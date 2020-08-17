@@ -3,6 +3,7 @@ function speak(id) {
 
   let speech = new SpeechSynthesisUtterance();
 
+  //speech.lang = "da-DK";
   speech.lang = "en-US";
   speech.text = message;
   speech.volume = 1;
@@ -11,3 +12,8 @@ function speak(id) {
 
   window.speechSynthesis.speak(speech);
 }
+
+
+
+// http://www.lingoes.net/en/translator/langcode.html
+// https://mdn.github.io/web-speech-api/speak-easy-synthesis/
