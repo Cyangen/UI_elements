@@ -11,11 +11,18 @@ function say(id) {
   speech.rate = 1;
   speech.pitch = 1;
 
+  speech.onstart = function(event) {
+    container.style.backgroundPosition = "left bottom";
+    console.log(event);
+  }
+
+  speech.onend = function(event) {
+    container.style.backgroundPosition = "right bottom";
+    //console.log(event);
+  }
+
   window.speechSynthesis.speak(speech);
-
 }
-
-
 
 
 
@@ -26,6 +33,8 @@ function say(id) {
 
 
 /* 
+
+window.speechSynthesis.cancel();
 
   container.style.backgroundPosition = "left bottom";
 
