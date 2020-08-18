@@ -7,7 +7,6 @@ The array is either entirely comprised of odd integers or entirely comprised of 
 
 
 function findOutlier(integers){
-  let evenCount = 0;
   let outlier;
   let oddArray = [];
   let evenArray = [];
