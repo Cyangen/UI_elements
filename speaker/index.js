@@ -1,4 +1,4 @@
-function speak(id) {
+function say(id) {
   const message = document.getElementById(id).value;
   const container = document.querySelector('.container');
 
@@ -14,6 +14,9 @@ function speak(id) {
   window.speechSynthesis.speak(speech);
 
 }
+
+
+
 
 
 
