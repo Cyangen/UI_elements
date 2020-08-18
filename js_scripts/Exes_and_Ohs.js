@@ -22,3 +22,8 @@ function XO(str) {
   let o = str.match(/o/gi);
   return (x && x.length) === (o && o.length);
 }
+
+
+function XO(str) {
+  return str.toLowerCase().split('x').length === str.toLowerCase().split('o').length;
+}
