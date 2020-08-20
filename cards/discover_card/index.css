@@ -66,7 +66,6 @@ body {
 
 
 .card_panel{
-  display: inline-block;
   width: 18rem;
   height: 24rem;
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);   
@@ -74,8 +73,7 @@ body {
   position: relative;
   z-index: 1;
   background: inherit;
-  overflow: hidden;
-  display: none;
+  display: inline-block;
   overflow: hidden;
   max-width: 0;
   transition: max-width 0.5s ease-out;
