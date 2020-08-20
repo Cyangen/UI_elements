@@ -44,8 +44,8 @@ body {
 }
 
 .slim_card{
-  display: inline-block;
-  float: left;
+  /* !!!this make slim_card to be always on the left giving the effect the card expanding only on side(to the right)!!! */
+  float: left; 
 }
 
 .wide_card{
