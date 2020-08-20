@@ -11,3 +11,18 @@ function panel(){
   }
 
 }
+
+function panel2(){
+  let card = document.querySelector(".card");
+  let wideCard = document.querySelector(".wide_card");
+
+  //card.style.width = "40rem";
+  wideCard.style.opacity = "1";
+  wideCard.style.width = "21rem";
+
+  
+
+  
+
+
+}
