@@ -13,16 +13,13 @@ function panel(){
 }
 
 function panel2(){
-  let card = document.querySelector(".card");
   let wideCard = document.querySelector(".wide_card");
 
-  //card.style.width = "40rem";
-  wideCard.style.opacity = "1";
-  wideCard.style.width = "21rem";
-
-  
-
-  
-
-
+  if (wideCard.style.width) {
+    wideCard.style.opacity = "0";
+    wideCard.style.width = null;
+  } else {
+    wideCard.style.opacity = "1";
+    wideCard.style.width = wideCard.style.width + "21rem";
+  }
 }
