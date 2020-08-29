@@ -91,7 +91,9 @@ body {
 }
 
 .wide_card_content p {
-  margin-left: 2.5rem;
+  margin-left: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04rem;
 }
 
 .slim_card_head{
