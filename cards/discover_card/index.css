@@ -135,11 +135,18 @@ ul{
 }
 
 .wide_card_content--list li{
-  padding: 0 .3rem;
-  
+  margin: 0.1rem;
+  padding: 0 .5rem;
+  border: 1px solid #e0deffba;
+  border-radius: 28px;
+  background: #e0deffba;
 }
 
 .wide_card_content--list a{
-  font-size: .8rem;
+  text-transform: capitalize;
+  font-size: .6rem;
+  line-height: 26px;
+  color: #365C7E;
+  font-weight: 500;
   
 }
