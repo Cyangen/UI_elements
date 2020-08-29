@@ -7,6 +7,7 @@ body {
     background-size: cover;
     height: 100vh;
     font-family: 'Poppins', sans-serif;
+    color: #f1f1f1;
 }
 
 .container{
@@ -105,7 +106,6 @@ body {
 }
 
 .slim_card_body {
-  color: whitesmoke;
   padding: 16px;
 }
 
