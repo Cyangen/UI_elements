@@ -20,6 +20,6 @@ function panel2(){
     wideCard.style.width = null;
   } else {
     wideCard.style.opacity = "1";
-    wideCard.style.width = wideCard.style.width + "21rem";
+    wideCard.style.width = wideCard.style.width + "23rem";
   }
 }
