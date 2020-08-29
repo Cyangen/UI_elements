@@ -112,6 +112,8 @@ body {
 .slim_card_body h4{
   font-weight: 500;
   margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.07rem;
 }
 
 
